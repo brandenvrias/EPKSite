@@ -2,6 +2,7 @@
 
 Run front-end files off ECS
   - Use GitHub actions "deploy to ECS" for this
+
 Use S3 for Media Files
   - deploy using SAM
 The configure CloudFront, route 53, etc//Domain portion.

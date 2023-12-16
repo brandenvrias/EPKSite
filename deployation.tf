@@ -45,6 +45,12 @@ resource "aws_s3_object" "promises" {
   source = "/Users/Arias/Documents/VSC/PrsnlPrjx/EPK/DZ.jpg"
 }
 
+resource "aws_s3_object" "AAbg" {
+  bucket = "mediabukket"
+  key = "AAps3.jpg"
+  source = "/Users/Arias/Documents/VSC/PrsnlPrjx/EPK/AAps3.jpg"
+}
+
 #RP42Am!D/C3.G8#NQ-p<K4aG - branden role pw
   #create a fucking github secrets for this!
 
